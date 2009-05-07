@@ -4,7 +4,7 @@ require 'comma/extractors'
 
 class Array
   def to_comma(style = :default)
-    FasterCSV.generate do |csv|
+    FasterCSV.generate(:col_sep => ";") do |csv|
       return "" if empty?
       csv << first.to_comma_headers(style)
       each do |object| 
