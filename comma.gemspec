@@ -1,7 +1,7 @@
 Gem::Specification.new do |s| 
   s.name = "comma"
-  s.version = "0.1.8"
-  s.author = "Roland Oth"
+  s.version = "0.1.9"
+  s.authors = ["Marcus Crafter","Roland Oth"]
   s.email = "roland.oth@gmail.com"
   s.homepage = "http://github.com/rolando/comma"
   s.platform = Gem::Platform::RUBY
